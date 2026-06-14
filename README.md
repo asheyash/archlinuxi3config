@@ -1,1 +1,1 @@
-this is a personal i3 config file set to my personal preferances. any advice would be apricated im new to this.
+this is a personal i3 config file set to my personal preferances. any advice would be apricated im new to this. volume ajustment is a personal programme written in python to show my volume level and manualy ajust it. brightness tool is also a programme but written in c and does not currently have a visual interface just backend changes and it assumes the path of the brightness file or that one exists.
