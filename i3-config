@@ -1,5 +1,5 @@
 #define mod key
-set $mod Mod 4
+set $mod Mod4
 
 #window config
 new_window pixel 1
@@ -55,4 +55,4 @@ bindcode 232 exec --no-startup-id brightness_tool -25
 #select wallpaper from local files
 exec_always --no-startup-id feh --bg-fill --randomize /home/asheyash/Downloads/wallpapers/
 #run picom for transparancy
-exec_always --no-startup-id sleep 2 && /usr/bin/picom -b
+exec_always --no-startup-id killall picom; sleep 2 && /usr/bin/picom -b
